@@ -9,4 +9,6 @@ public class TrialController extends Controller {
     public void index(){
         renderText("Hello Maven Jfinal");
     }
+
+    public int test(){return 1+1; }
 }
